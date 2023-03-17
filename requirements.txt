@@ -2,7 +2,7 @@ google
 gspread
 pandas
 pickle
-sklearn
+scikit-learn
 pickle
 matplotlib == *
 streamlit == 1.1.*
