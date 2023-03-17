@@ -2,6 +2,5 @@ google
 gspread
 pandas
 scikit-learn
-pickle
 py ==3.6.*
 pip == 2.3.*
