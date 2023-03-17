@@ -34,9 +34,7 @@ def shorten_categories(categories, cutoff):
 def load_data():
     df = pd.read_excel(f"https://docs.google.com/spreadsheets/d/1vSeqmo559uXl_sjwCorKsENK2boOihERFrmrM-V5D2Y/export?format-xlsx" , 'Sheet1' , header = 0)
     return df
-
- df = load_data()
-
+  
 def show_explore_page():
     st.title("Explore Ship Stability")
 
