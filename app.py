@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
  
-from predict_page import show_predict_page
-from explore_page import show_explore_page
+
     
 
     
