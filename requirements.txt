@@ -1,7 +1,6 @@
 google
 gspread
 pandas
-pickle
 scikit-learn
 pickle
 py ==3.6.*
