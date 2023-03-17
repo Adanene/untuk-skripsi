@@ -4,3 +4,4 @@ pandas
 scikit-learn
 py ==1.9.0
 pip == 22.0
+matplotlib==3.5.2
