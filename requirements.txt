@@ -2,5 +2,5 @@ google
 gspread
 pandas
 scikit-learn
-py ==1.9.*
+py ==1.9.0
 pip == 23.0
