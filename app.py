@@ -1,18 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
- 
 
-    
-
-    
-page = st.sidebar.selectbox("Explore Or Predict", ("Predict", "Explore"))
-
-if page == "Predict":
-    show_predict_page()
-else:
-    show_explore_page()
-  
 #for explore page
 def explore_page():
  import streamlit as st
@@ -222,3 +211,12 @@ def show_predict_page():
         salary = regressor.predict(X)
 
         st.subheader(f"Ship will turn in {salary} degrees")
+        
+  
+page = st.sidebar.selectbox("Explore Or Predict", ("Predict", "Explore"))
+
+if page == "Predict":
+    show_predict_page()
+else:
+    show_explore_page()
+  
