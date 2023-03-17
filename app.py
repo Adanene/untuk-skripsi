@@ -15,7 +15,7 @@ else:
     show_explore_page()
   
 #for explore page
-def explore_page:
+def explore_page():
  import streamlit as st
  import pandas as pd
  import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ def shorten_categories(categories, cutoff):
     """
     )
 
-def predict_page: 
+def predict_page(): 
   import streamlit as st
 import pickle
 import numpy as np
