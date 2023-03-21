@@ -9,7 +9,7 @@ import pandas as pd
 import streamlit as st
 
 sheet_id ='1vSeqmo559uXl_sjwCorKsENK2boOihERFrmrM-V5D2Y'
-xls = pd.ExcelFile(f"https://docs.google.com/spreadsheets/d/{sheet_id}/export?format-xlsx")
+xls = pd.ExcelFile(f"https://docs.google.com/spreadsheets/d/1vSeqmo559uXl_sjwCorKsENK2boOihERFrmrM-V5D2Y/export?format-xlsx")
 df = pd.read_excel(xls , 'Sheet1' , header = 0)
 df = df[["Jenis Kapal", "Loa", "Lwl", "Breadth", "Depth", "Draft", "Cb", "beban A", "beban B" , "beban C", "beban D", "beban E", "beban F" , "Jumlah beban", "kiri", "kanan", "incl depan", "Incl belakang"]]
 df.head()
